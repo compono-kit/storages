@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hansel23\Storages\Models\Types;
+namespace ComponoKit\Storages\Models\Types;
 
 enum SortDirection
 {

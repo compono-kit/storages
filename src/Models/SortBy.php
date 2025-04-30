@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Hansel23\Storages\Models;
+namespace ComponoKit\Storages\Models;
 
-use Hansel23\Storages\Interfaces\RepresentsSortBy;
-use Hansel23\Storages\Models\Types\SortDirection;
+use ComponoKit\Storages\Interfaces\RepresentsSortBy;
+use ComponoKit\Storages\Models\Types\SortDirection;
 
 class SortBy implements RepresentsSortBy
 {

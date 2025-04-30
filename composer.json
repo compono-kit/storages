@@ -1,5 +1,5 @@
 {
-  "name": "hansel23/storages",
+  "name": "compono-kit/storages",
   "description": "Tiny library to simplify data retrieval",
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Hansel23\\Storages\\": "src/"
+      "ComponoKit\\Storages\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Hansel23\\Storages\\Tests\\": "tests/"
+      "ComponoKit\\Storages\\Tests\\": "tests/"
     }
   }
 }

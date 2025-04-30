@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Hansel23\Storages;
+namespace ComponoKit\Storages;
 
-use Hansel23\Storages\Exceptions\InvalidArgumentException;
-use Hansel23\Storages\Exceptions\InvalidMethodNameException;
-use Hansel23\Storages\Exceptions\MissingImplementationException;
-use Hansel23\Storages\Exceptions\QueryNotFoundException;
-use Hansel23\Storages\Interfaces\QueriesObjects;
-use Hansel23\Storages\Interfaces\RepresentsQueryConstraints;
+use ComponoKit\Storages\Exceptions\InvalidArgumentException;
+use ComponoKit\Storages\Exceptions\InvalidMethodNameException;
+use ComponoKit\Storages\Exceptions\MissingImplementationException;
+use ComponoKit\Storages\Exceptions\QueryNotFoundException;
+use ComponoKit\Storages\Interfaces\QueriesObjects;
+use ComponoKit\Storages\Interfaces\RepresentsQueryConstraints;
 
 class GenericStorage
 {

@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Hansel23\Storages\Models;
+namespace ComponoKit\Storages\Models;
 
-use Hansel23\Storages\Exceptions\ValueNotProvidedException;
-use Hansel23\Storages\Interfaces\RepresentsFilter;
-use Hansel23\Storages\Interfaces\RepresentsFilterValue;
+use ComponoKit\Storages\Exceptions\ValueNotProvidedException;
+use ComponoKit\Storages\Interfaces\RepresentsFilter;
+use ComponoKit\Storages\Interfaces\RepresentsFilterValue;
 
 class Filter implements RepresentsFilter
 {

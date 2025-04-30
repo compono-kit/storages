@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Hansel23\Storages\Models;
+namespace ComponoKit\Storages\Models;
 
-use Hansel23\Storages\Interfaces\LimitsResults;
-use Hansel23\Storages\Interfaces\RepresentsFilter;
-use Hansel23\Storages\Interfaces\RepresentsQueryConstraints;
-use Hansel23\Storages\Interfaces\RepresentsSortBy;
+use ComponoKit\Storages\Interfaces\LimitsResults;
+use ComponoKit\Storages\Interfaces\RepresentsFilter;
+use ComponoKit\Storages\Interfaces\RepresentsQueryConstraints;
+use ComponoKit\Storages\Interfaces\RepresentsSortBy;
 
 class QueryConstraint implements RepresentsQueryConstraints
 {

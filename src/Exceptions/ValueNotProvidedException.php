@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hansel23\Storages\Exceptions;
+namespace ComponoKit\Storages\Exceptions;
 
 class ValueNotProvidedException extends \LogicException
 {

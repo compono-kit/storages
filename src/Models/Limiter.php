@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Hansel23\Storages\Models;
+namespace ComponoKit\Storages\Models;
 
-use Hansel23\Storages\Interfaces\LimitsResults;
+use ComponoKit\Storages\Interfaces\LimitsResults;
 
 class Limiter implements LimitsResults
 {

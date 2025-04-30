@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hansel23\Storages\Interfaces;
+namespace ComponoKit\Storages\Interfaces;
 
 interface RepresentsQueryConstraints
 {

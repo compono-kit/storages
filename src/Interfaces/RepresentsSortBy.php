@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Hansel23\Storages\Interfaces;
+namespace ComponoKit\Storages\Interfaces;
 
-use Hansel23\Storages\Models\Types\SortDirection;
+use ComponoKit\Storages\Models\Types\SortDirection;
 
 interface RepresentsSortBy
 {
