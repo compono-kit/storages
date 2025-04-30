@@ -1,0 +1,29 @@
+{
+  "name": "hansel23/storages",
+  "description": "Tiny library to simplify data retrieval",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Benjamin Bruska",
+      "email": "benjamin.bruska@your-coder.de"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hansel23\\Storages\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hansel23\\Storages\\Tests\\": "tests/"
+    }
+  }
+}
